@@ -26,7 +26,8 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.ViewHolders> {
     public FeedAdapter.ViewHolders onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.feed_list_row, parent, false);
 
-        return new ViewHolders(itemView);    }
+        return new ViewHolders(itemView);
+    }
 
     @Override
     public void onBindViewHolder(FeedAdapter.ViewHolders holder, int position) {
